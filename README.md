@@ -1,6 +1,3 @@
-Forked from https://github.com/happynear/caffe-windows master branch.Modified CUDA version from 7.0 to 7.5.
-There is the original README.md below.
-
 Forked from https://www.github.com/BVLC/caffe master branch in 2015/11/09 . Next update time may be around 2016/01/01 .
 
 I have made a list of some frequently asked questions in [FAQ.md](FAQ.md). If you get confused during configuring, please firstly look up for your question in the [FAQ.md](FAQ.md). This FAQ list is still under construction, I will keep adding questions into it.
@@ -8,7 +5,7 @@ I have made a list of some frequently asked questions in [FAQ.md](FAQ.md). If yo
 Setup step:
 ======
 
-1. Download third-party libraries from [BaiduYun Disk](http://pan.baidu.com/s/1sjIKsc1) or [OneDrive](http://1drv.ms/1HC3Se4) and extract the files to `caffe-windows_root/3rdparty/`. **Please don't forget to add the `./3rdparty/bin` folder to your environment variable `PATH`.**
+1. Download third-party libraries from [BaiduYun Disk](http://pan.baidu.com/s/1pKqrpHL) or [OneDrive](http://1drv.ms/1nlcnXS) and extract the files to `caffe-windows_root/3rdparty/`. **Please don't forget to add the `./3rdparty/bin` folder to your environment variable `PATH`.**
 
 2. Run `./src/caffe/proto/extract_proto.bat` to create `caffe.pb.h`, `caffe.pb.cc` and `caffe_pb2.py`.
 
